@@ -33,5 +33,6 @@
 - **Datos**: Pedir solo lo imprescindible. Sin claves/secretos en el repositorio.
 - **Componentes**: Pequeños, reutilizables y legibles.
 - **Commits**: Claros y concisos.
+- **Cerrar la feature**: Cuando te pida "cerrar la feature", ejecuta: verificar el working tree y commitear los cambios pendientes; correr tests (parar si fallan); hacer checkout de main; fusionar la rama de la feature con --no-ff y el mensaje "Merge feature 001: catalogo whatsapp"; borrar la rama local y la rama remota correspondiente; subir main al remoto; y mostrar git log --oneline --graph -n 10.
 
 Las reglas de producto viven en specify/memory/constitution.md y el estado del producto en specs/README.md
